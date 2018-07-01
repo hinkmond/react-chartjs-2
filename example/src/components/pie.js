@@ -11,12 +11,12 @@ const data = {
 		data: [300, 50, 100],
 		backgroundColor: [
 		'#FF6384',
-		'#36A2EB',
+		'#00FF00',
 		'#FFCE56'
 		],
 		hoverBackgroundColor: [
 		'#FF6384',
-		'#36A2EB',
+		'#00FF00',
 		'#FFCE56'
 		]
 	}]

@@ -4,7 +4,7 @@ import {Doughnut} from 'react-chartjs-2';
 const data = {
 	labels: [
 		'Red',
-		'Green',
+		'Blue',
 		'Yellow'
 	],
 	datasets: [{
@@ -28,7 +28,7 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <h2>Doughnut Example</h2>
+        <h2>Doughnut Example Hello World #2!</h2>
         <Doughnut data={data} />
       </div>
     );

@@ -52,7 +52,7 @@ const Graph = React.createClass({
 			};
 
 			_this.setState(newState);
-		}, 5000);
+		}, 1200);
 	},
 	render() {
 		return (

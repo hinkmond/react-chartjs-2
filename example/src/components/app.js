@@ -29,10 +29,14 @@ export default class App extends React.Component {
 				<hr />
 				<LineExample />
 				<hr />
+
+
+                <table width="100%"> <tr> <td>
 				<BarExample />
-				<hr />
+                </td><td>
 				<HorizontalBarExample />
-				<hr />
+                </td></tr></table>
+
 				<RadarExample />
 				<hr />
 				<PolarExample />

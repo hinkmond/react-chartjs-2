@@ -8,7 +8,7 @@ function getRandomInt (min, max) {
 const getState = () => ({
   labels: [
     'Red',
-    'Green',
+    'Blue',
     'Yellow'
   ],
   datasets: [{
@@ -42,7 +42,7 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <h2>Dynamicly refreshed Doughnut Example</h2>
+        <h2>Dynamicly refreshed Doughnut Example Hello World</h2>
         <Doughnut data={this.state} />
       </div>
     );

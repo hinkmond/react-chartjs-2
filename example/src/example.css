@@ -1,4 +1,4 @@
-/* 
+/*
 // Examples Stylesheet
 // -------------------
 */
@@ -54,4 +54,10 @@ label {
 	margin: 15px 0;
 	font-style: italic;
 	color: #999;
+}
+
+
+td {
+    border: 1px solid black
+;
 }
