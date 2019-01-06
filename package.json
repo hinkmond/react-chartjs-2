@@ -5,15 +5,13 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
-  "author": "Jeremy Ayerst",
-  "homepage": "https://github.com/jerairrest/react-chartjs-2",
   "license" : "MIT" ,
   "repository": {
     "type": "git",
-    "url": "https://github.com/jerairrest/react-chartjs-2.git"
+    "url": "https://github.com/hinkmond/react-chartjs-2.git"
   },
   "bugs": {
-    "url": "https://github.com/jerairrest/react-chartjs-2/issues"
+    "url": "https://github.com/hinkmond/react-chartjs-2/issues"
   },
   "dependencies": {
     "lodash": "^4.17.4",
@@ -85,6 +83,8 @@
     "examples:build": "cross-env BABEL_ENV=development NODE_ENV=production webpack --config example/webpack.config.babel.js --progress",
     "examples:deploy": "npm run examples:clean && npm run examples:build && gh-pages -d example/dist",
     "start": "npm run examples",
+    "stop": "taskkill /f /im node.exe",
+    "stop-for-macos": "pkill --signal SIGINT node",
     "lint": "eslint ./; true",
     "test": "mocha test/config/setup.js test/__tests__/**/*",
     "storybook": "start-storybook -p 6006",
