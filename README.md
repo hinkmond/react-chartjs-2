@@ -15,10 +15,10 @@ As of 2.x we have made chart.js a peer dependency for greater flexibility. Pleas
 
 Live demo: [jerairrest.github.io/react-chartjs-2](http://jerairrest.github.io/react-chartjs-2/)
 
-To build the examples locally, run:
+To build the examples locally on a Windows system, run:
 
 ```bash
-npm install
+npm install --global --production windows-build-tools --no-optional
 npm start
 ```
 
