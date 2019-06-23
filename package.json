@@ -16,7 +16,9 @@
     "url": "https://github.com/jerairrest/react-chartjs-2/issues"
   },
   "dependencies": {
+    "acorn": "^6.1.1",
     "lodash": "^4.17.4",
+    "node-gyp": "^5.0.1",
     "prop-types": "^15.5.8",
     "style-loader": "^0.23.1"
   },
@@ -31,7 +33,7 @@
     "babel-register": "^6.18.0",
     "babelify": "^7.3.0",
     "brfs": "^1.4.3",
-    "canvas": "^1.6.2",
+    "canvas": "^2.5.0",
     "canvas-prebuilt": "^1.6.5-prerelease.1",
     "chai": "^3.5.0",
     "chart.js": "2.6.0",
